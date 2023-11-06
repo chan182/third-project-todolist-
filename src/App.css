@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.wrap {
+    width: 1200px;
+    margin: 30px auto;
+    height: 100vh;
+    border: 3px solid lightslategray;
+    padding: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_area {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input_area input {
+    height: 30px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.input_area button {
+    background-color: lightyellow;
+    height: 30px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-area {
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.content-area h5 {
+    font-size: 20px;
+    margin: 10px 10px 15px 10px;
+}
+
+.content-area p {
+    margin: 10px 10px 30px 20px;
+}
+
+.content-area button {
+    margin-left: 20px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.TodoList-header {
+    font-size: 40px;
 }
